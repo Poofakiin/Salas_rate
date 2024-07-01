@@ -1,0 +1,72 @@
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    background-color: #333;    
+}
+
+nav li {
+    float: left;
+}
+
+.login_register {
+    float: right;
+    /* Float the "Register" button to the right */
+}
+
+
+.small-font {
+    font-size: 15px;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #111;
+}
+
+body {
+    background-color: #f1f1f1;
+    /* Light gray background color */
+    font-family: Verdana;
+}
+
+.container {
+    display: flex;
+}
+
+.filter-sidebar {
+    width: 10%; /* Ancho de la barra lateral */
+    padding: 20px;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%; /* Ocupa toda la altura */
+    overflow-y: auto; /* Agregar scroll si el contenido es demasiado largo */
+}
+
+.left-side{
+    height: 100%;
+    width: 20%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.right-side{
+    height: 100%;
+    width: 80%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}

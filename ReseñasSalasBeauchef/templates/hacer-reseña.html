@@ -1,0 +1,117 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block css %}
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="{% static 'css/hacer-review.css' %}">
+{% endblock %}
+
+{% block additional_breadcrumbs %}
+<li style="display: inline-block; margin-right: 10px;"><a href="{% url 'hacer-reseña' %}">Crear Reseña</a></li>> 
+{% endblock %}
+
+{% block content %}
+<div class="centered-form">
+  <div class="form-container" id="ratingForm">
+    <form method="post">
+      {% csrf_token %}
+      <br>
+      {{ form.sala }} <br><br>
+      <span>¿Como evalua la sala?</span> <br><br>
+
+      <div class="rating-section">
+        <label>Visibilidad</label><br>
+        <div class="rate">
+          <input type="radio" id="vis-star5" name="vis-rate" value="10" />
+          <label for="vis-star5">5 stars</label>
+          <input type="radio" id="vis-star4" name="vis-rate" value="8" />
+          <label for="vis-star4">4 stars</label>
+          <input type="radio" id="vis-star3" name="vis-rate" value="6" />
+          <label for="vis-star3">3 stars</label>
+          <input type="radio" id="vis-star2" name="vis-rate" value="4" />
+          <label for="vis-star2">2 stars</label>
+          <input type="radio" id="vis-star1" name="vis-rate" value="2" />
+          <label for="vis-star1">1 star</label>
+        </div>
+      </div>
+
+      <div class="rating-section">
+        <label>Sonido</label><br>
+        <div class="rate">
+          <input type="radio" id="sonido-star5" name="sonido-rate" value="10" />
+          <label for="sonido-star5">5 stars</label>
+          <input type="radio" id="sonido-star4" name="sonido-rate" value="8" />
+          <label for="sonido-star4">4 stars</label>
+          <input type="radio" id="sonido-star3" name="sonido-rate" value="6" />
+          <label for="sonido-star3">3 stars</label>
+          <input type="radio" id="sonido-star2" name="sonido-rate" value="4" />
+          <label for="sonido-star2">2 stars</label>
+          <input type="radio" id="sonido-star1" name="sonido-rate" value="2" />
+          <label for="sonido-star1">1 star</label>
+        </div>
+      </div>
+
+      <div class="rating-section">
+        <label>Asientos</label><br>
+        <div class="rate">
+          <input type="radio" id="asientos-star5" name="asientos-rate" value="10"/>
+          <label for="asientos-star5">5 stars</label>
+          <input type="radio" id="asientos-star4" name="asientos-rate" value="8"/>
+          <label for="asientos-star4">4 stars</label>
+          <input type="radio" id="asientos-star3" name="asientos-rate" value="6"/>
+          <label for="asientos-star3">3 stars</label>
+          <input type="radio" id="asientos-star2" name="asientos-rate" value="4"/>
+          <label for="asientos-star2">2 stars</label>
+          <input type="radio" id="asientos-star1" name="asientos-rate" value="2"/>
+          <label for="asientos-star1">1 star</label>
+        </div>
+      </div>
+
+      <div class="rating-section">
+        <label>Iluminacion</label><br>
+        <div class="rate">
+          <input type="radio" id="iluminacion-star5" name="iluminacion-rate" value="10"/>
+          <label for="iluminacion-star5">5 stars</label>
+          <input type="radio" id="iluminacion-star4" name="iluminacion-rate" value="8"/>
+          <label for="iluminacion-star4">4 stars</label>
+          <input type="radio" id="iluminacion-star3" name="iluminacion-rate" value="6"/>
+          <label for="iluminacion-star3">3 stars</label>
+          <input type="radio" id="iluminacion-star2" name="iluminacion-rate" value="4"/>
+          <label for="iluminacion-star2">2 stars</label>
+          <input type="radio" id="iluminacion-star1" name="iluminacion-rate" value="2"/>
+          <label for="iluminacion-star1">1 star</label>
+        </div>
+      </div>
+      <br><br>
+      <label for="reseña">Deje aqui su reseña:</label><br><br>
+      {{ form.reseña }} <br><br>
+      <button type="submit">Enviar Reseña</button>
+    </form>
+  </div>
+</div>
+
+{% endblock %}
+
+{% block javascript %}
+<script>
+  document.getElementById('ratingForm').addEventListener('submit', function (event) {
+    // Check if at least one rating is selected for each category
+    if (!isRatingSelected('vis-rate') || !isRatingSelected('sonido-rate') ||
+      !isRatingSelected('asientos-rate') || !isRatingSelected('iluminacion-rate')) {
+      alert('Por favor seleccione un rating para cada categoria.');
+      event.preventDefault(); // Prevent form submission
+    }
+  });
+
+  function isRatingSelected(ratingName) {
+    // Check if at least one radio button is checked for the given rating name
+    var ratingInputs = document.getElementsByName(ratingName);
+    for (var i = 0; i < ratingInputs.length; i++) {
+      if (ratingInputs[i].checked) {
+        return true; // At least one radio button is checked
+      }
+    }
+    return false; // No radio button is checked
+  }
+</script>
+{% endblock %}

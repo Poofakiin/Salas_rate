@@ -1,0 +1,80 @@
+{% extends "base.html" %}
+
+{% load static %}
+
+{% block css %}
+<link rel="stylesheet" href="{% static 'css/filter.css' %}" type="text/css"> 
+<link rel="stylesheet" href="{% static 'css/paginator.css' %}" type="text/css">
+{% endblock %}
+
+{% block additional_breadcrumbs %}
+<li style="display: inline-block; margin-right: 10px;"><a href="{% url 'buscador-salas' %}">Salas</a></li>> 
+{% endblock %}
+{% block content %}
+
+
+<body>
+    <h1>Buscador de salas por filtros</h1>
+    <aside id="filtros">
+        <form method="get">
+            {{ form.as_p }}
+            <button type="submit">Buscar</button>
+        </form>
+    </aside>
+
+    <table border="1" style="font-size: 14px;">
+        <thead>
+            <tr>
+                <th>Nombre Sala</th>
+                <th>Edificio</th>
+                <th>Capacidad Normal</th>
+                <th>Capacidad Examen</th>
+                <th>Aforo</th>
+                <th>Híbrido</th>
+                <th>Promedio Visibilidad</th>
+                <th>Promedio Sonido</th>
+                <th>Promedio Asientos</th>
+                <th>Promedio Iluminación</th>
+                <th>Calificación Promedio Global</th>
+                <th>Link</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for sala in salas %}
+            <tr>
+                <td><a href="{% url 'pagResenas' sala.pk %}">{{ sala.NombreSala }}</a></td>
+                <td>{{ sala.Edificio }}</td>
+                <td>{{ sala.CapacidadNormal }}</td>
+                <td>{{ sala.CapacidadExamen }}</td>
+                <td>{{ sala.Aforo }}</td>
+                <td>{{ sala.Hibrido }}</td>
+                <td>{{ sala.PromedioVisibilidad }}</td>
+                <td>{{ sala.PromedioSonido }}</td>
+                <td>{{ sala.PromedioAsientos }}</td>
+                <td>{{ sala.PromedioIluminacion }}</td>
+                <td>{{ sala.CalificacionPromedioGlobal }}</td>
+                <td><a href="{{ sala.Link }}" target="_blank">Link</a></td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+    <div class="pagination">
+        <span class="step-links">
+            {% if salas.has_previous %}
+                <a href="?page=1">&laquo; first</a>
+                <a href="?page={{ salas.previous_page_number }}">previous</a>
+            {% endif %}
+    
+            <span class="current">
+                Página {{ salas.number }} de {{ salas.paginator.num_pages }}.
+            </span>
+    
+            {% if salas.has_next %}
+                <a href="?page={{ salas.next_page_number }}">next</a>
+                <a href="?page={{ salas.paginator.num_pages }}">last &raquo;</a>
+            {% endif %}
+        </span>
+    </div>
+    
+{% endblock %}

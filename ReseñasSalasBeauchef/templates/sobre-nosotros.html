@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block title %}Sobre Nosotros - Reseñas Salas Beauchef{% endblock %}
+{% block additional_breadcrumbs %}
+<li style="display: inline-block; margin-right: 10px;"><a href="{% url 'sobre-nosotros' %}">Sobre Nosotros</a></li>> 
+{% endblock %}
+{% block content %}
+    <h1>Sobre Nosotros</h1>
+    <p>Conoce más sobre el equipo detrás de Reseñas Salas Beauchef.</p>
+
+    <section>
+        <h2>Nuestra Misión</h2>
+        <p>Brindar una plataforma confiable y fácil de usar donde los estudiantes puedan compartir y encontrar reseñas honestas sobre las salas de clases en Beauchef.</p>
+    </section>
+
+    <section>
+        <h2>El Equipo</h2>
+        <p>Somos Antonio Vitalic, Benjamín Aguilar, Ignacio Mella, José Pereira y Raúl Aliste, un grupo de estudiantes apasionados por mejorar la experiencia educativa en Beauchef. Trabajamos arduamente para asegurarnos de que nuestra plataforma sea útil, actualizada y confiable.
+        </p>
+    </section>
+    
+{% endblock %}

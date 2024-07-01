@@ -1,0 +1,65 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- add Logo.png in <img> -->
+    <img src="{% static 'images/Logo.png' %}" alt="Logo" width="553" height="127"/>
+    <title>{% block title %}Reseñas Salas Beauchef{% endblock %}</title>
+    <!-- add favicon.ico in static/images in <link> -->
+    <link rel="icon" href="{% static 'images/favicon.ico' %}" type="image/x-icon">
+    <!-- Placeholder para después -->
+    <link rel="stylesheet" href="{% static 'css/base.css' %}">
+
+    {% block css %}{% endblock %}
+</head>
+    
+</head>
+<body>
+
+<nav class="small-font">
+    <ul>
+        <li><a href="{% url 'index' %}">Inicio</a></li>
+        <li><a href="{% url 'todas-las-salas' %}">Todas las Salas</a></li>
+        <li><a href="{% url 'salas-por-edificio' %}">Salas por Edificio</a></li>
+        <li><a href="{% url 'buscador-salas' %}">Buscador de Salas</a></li>
+        {% if user.is_authenticated %}
+            <li><a href="{% url 'hacer-reseña' %}">Hacer Reseña</a></li>
+            <li><a href="{% url 'crear-anuncio' %}">Crear Anuncio</a></li>
+        {% endif %}
+        <li><a href="{% url 'ver-anuncios' %}">Ver Anuncios</a></li>
+        <li><a href="{% url 'sobre-nosotros' %}">Sobre Nosotros</a></li>
+        {% if user.is_authenticated %}
+            <!-- Código para el enlace de Logout -->
+            <li class="login_register"><a href="{% url 'logout' %}">Cerrar sesión</a></li>
+        {% else %}
+            <!-- Código para los enlaces de Registro e Inicio de sesión -->
+            <li class="login_register"><a href="{% url 'register' %}">Registrarse</a></li>
+            <li class="login_register"><a href="{% url 'login' %}">Ingresar</a></li>
+        {% endif %}
+    </ul>
+</nav>
+{% block breadcrumbs %}
+    <div class="breadcrumbs">
+        <ul style="list-style: none; padding: 0; margin: 0;">
+            <li style="display: inline-block; margin-right: 10px;"><a href="{% url 'index' %}">Inicio</a></li>> 
+            {% block additional_breadcrumbs %}{% endblock %}
+        </ul>
+    </div>  
+{% endblock %}
+<main>
+    {% block content %}
+    <!-- Content from child templates will be inserted here -->
+    {% endblock %}
+</main>
+
+<footer>
+    <p>&copy; 2023 Reseñas Salas Beauchef. Todos los derechos reservados.</p>
+</footer>
+
+{% block javascript %}
+{% endblock %}
+</body>
+</html>

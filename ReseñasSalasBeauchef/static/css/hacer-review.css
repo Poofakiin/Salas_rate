@@ -1,0 +1,103 @@
+.centered-form {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    height: 70vh;
+}
+
+/* Style for the form container */
+.form-container {
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 40vw;
+    /* Adjust the width as needed */
+}
+
+.rating-section {
+    display: inline-block;
+    width: 45%;
+    /* Adjust the width for proper spacing */
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 5px;
+    text-align: left;
+}
+
+/* Style for labels */
+label {
+    font-weight: bold;
+}
+
+/* Add some margin to the stars and labels for better spacing */
+.rate {
+    margin-bottom: 10px;
+}
+
+.non-resizable {
+    resize: none;
+    font-size: 16px;
+    width: 38vw;
+}
+
+.rate {
+    float: left;
+    height: 46px;
+    padding: 0 10px;
+}
+
+.rate:not(:checked)>input {
+    position: absolute;
+    top: -9999px;
+}
+
+.rate:not(:checked)>label {
+    float: right;
+    width: 1em;
+    overflow: hidden;
+    white-space: nowrap;
+    cursor: pointer;
+    font-size: 30px;
+    color: #ccc;
+}
+
+.rate:not(:checked)>label:before {
+    content: '★ ';
+}
+
+.rate>input:checked~label {
+    color: #ffc700;
+}
+
+.rate:not(:checked)>label:hover,
+.rate:not(:checked)>label:hover~label {
+    color: #deb217;
+}
+
+.rate>input:checked+label:hover,
+.rate>input:checked+label:hover~label,
+.rate>input:checked~label:hover,
+.rate>input:checked~label:hover~label,
+.rate>label:hover~input:checked~label {
+    color: #c59b08;
+}
+
+button {
+    background-color: #333;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    display: block;
+}
+
+button:hover {
+    background-color: #111;
+}

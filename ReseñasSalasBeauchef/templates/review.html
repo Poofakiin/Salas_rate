@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block title %}Reseñas - Reseñas Salas Beauchef{% endblock %}
+
+{% block content %}
+    <h1>Reseñas de Salas de Clases</h1>
+    <p>Descubre lo que otros estudiantes piensan sobre las salas de clases en Beauchef.</p>
+
+    <!-- Loop through the list of reviews -->
+    {% for review in reviews %}
+    <article class="review">
+        <h2>Reseña de {{ review.Sala }}</h2>
+        <p>Por: {{ review.Usuario }}</p>
+        <p>Fecha: {{ review.Fecha }}</p>
+        <p><strong>Visibilidad:</strong> {{ review.Visibilidad }}/10</p>
+        <p><strong>Sonido:</strong> {{ review.Sonido }}/10</p>
+        <p><strong>Asientos:</strong> {{ review.Asientos }}/10</p>
+        <p><strong>Iluminación:</strong> {{ review.Iluminacion }}/10</p>
+        <p><strong>Promedio:</strong> {{ review.Promedio }}/10</p>
+        <blockquote>
+            "{{ review.Reseña }}"
+        </blockquote>
+    </article>
+    <hr> <!-- Divider between reviews -->
+    {% endfor %}
+{% endblock %}

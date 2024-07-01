@@ -1,0 +1,1874 @@
+[
+    {
+        "model": "ReseñasSalasBeauchef.sala",
+        "pk": 1,
+        "fields": {
+            "NombreSala": "B103",
+            "Edificio": "Edificio Computaci\u00f3n",
+            "CapacidadNormal": 60,
+            "CapacidadExamen": 30,
+            "Aforo": 0,
+            "Hibrido": false,
+            "PromedioVisibilidad": 1,
+            "PromedioSonido": 1,
+            "PromedioAsientos": 1,
+            "PromedioIluminacion": 1,
+            "CalificacionPromedioGlobal": 1,
+            "Link": "https://ucampus.uchile.cl/m/fcfm_eventos/objeto?objeto=sala-3"
+        }
+    },
+    {
+        "model": "ReseñasSalasBeauchef.sala",
+        "pk": 2,
+        "fields": {
+            "NombreSala": "B104",
+            "Edificio": "Edificio Computaci\u00f3n",
+            "CapacidadNormal": 120,
+            "CapacidadExamen": 60,
+            "Aforo": 0,
+            "Hibrido": false,
+            "PromedioVisibilidad": 1,
+            "PromedioSonido": 1,
+            "PromedioAsientos": 1,
+            "PromedioIluminacion": 1,
+            "CalificacionPromedioGlobal": 1,
+            "Link": "https://ucampus.uchile.cl/m/fcfm_eventos/objeto?objeto=sala-4"
+        }
+    },
+    {
+        "model": "ReseñasSalasBeauchef.sala",
+        "pk": 3,
+        "fields": {
+            "NombreSala": "B105",
+            "Edificio": "Edificio Computaci\u00f3n",
+            "CapacidadNormal": 61,
+            "CapacidadExamen": 30,
+            "Aforo": 0,
+            "Hibrido": false,
+            "PromedioVisibilidad": 1,
+            "PromedioSonido": 1,
+            "PromedioAsientos": 1,
+            "PromedioIluminacion": 1,
+            "CalificacionPromedioGlobal": 1,
+            "Link": "https://ucampus.uchile.cl/m/fcfm_eventos/objeto?objeto=sala-5"
+        }
+    },
+    {
+        "model": "ReseñasSalasBeauchef.sala",
+        "pk": 4,
+        "fields": {
+            "NombreSala": "B109",
+            "Edificio": "Edificio Computaci\u00f3n",
+            "CapacidadNormal": 24,
+            "CapacidadExamen": 0,
+            "Aforo": 0,
+            "Hibrido": false,
+            "PromedioVisibilidad": 1,
+            "PromedioSonido": 1,
+            "PromedioAsientos": 1,
+            "PromedioIluminacion": 1,
+            "CalificacionPromedioGlobal": 1,
+            "Link": "https://ucampus.uchile.cl/m/fcfm_eventos/objeto?objeto=sala-9"
+        }
+    },
+    {
+        "model": "ReseñasSalasBeauchef.sala",
+        "pk": 5,
+        "fields": {
+            "NombreSala": "B110",
+            "Edificio": "Edificio Computaci\u00f3n",
+            "CapacidadNormal": 24,
+            "CapacidadExamen": 0,
+            "Aforo": 0,
+            "Hibrido": false,
+            "PromedioVisibilidad": 1,
+            "PromedioSonido": 1,
+            "PromedioAsientos": 1,
+            "PromedioIluminacion": 1,
+            "CalificacionPromedioGlobal": 1,
+            "Link": "https://ucampus.uchile.cl/m/fcfm_eventos/objeto?objeto=sala-10"
+        }
+    },
+    {
+        "model": "ReseñasSalasBeauchef.sala",
+        "pk": 6,
+        "fields": {
+            "NombreSala": "B111",
+            "Edificio": "Edificio Computaci\u00f3n",
+            "CapacidadNormal": 61,
+            "CapacidadExamen": 30,
+            "Aforo": 0,
+            "Hibrido": false,
+            "PromedioVisibilidad": 1,
+            "PromedioSonido": 1,
+            "PromedioAsientos": 1,
+            "PromedioIluminacion": 1,
+            "CalificacionPromedioGlobal": 1,
+            "Link": "https://ucampus.uchile.cl/m/fcfm_eventos/objeto?objeto=sala-11"
+        }
+    },
+    {
+        "model": "ReseñasSalasBeauchef.sala",
+        "pk": 7,
+        "fields": {
+            "NombreSala": "B112",
+            "Edificio": "Edificio Computaci\u00f3n",
+            "CapacidadNormal": 108,
+            "CapacidadExamen": 50,
+            "Aforo": 0,
+            "Hibrido": false,
+            "PromedioVisibilidad": 1,
+            "PromedioSonido": 1,
+            "PromedioAsientos": 1,
+            "PromedioIluminacion": 1,
+            "CalificacionPromedioGlobal": 1,
+            "Link": "https://ucampus.uchile.cl/m/fcfm_eventos/objeto?objeto=sala-12"
+        }
+    },
+    {
+        "model": "ReseñasSalasBeauchef.sala",
+        "pk": 8,
+        "fields": {
+            "NombreSala": "B113",
+            "Edificio": "Edificio Computaci\u00f3n",
+            "CapacidadNormal": 60,
+            "CapacidadExamen": 30,
+            "Aforo": 0,
+            "Hibrido": false,
+            "PromedioVisibilidad": 1,
+            "PromedioSonido": 1,
+            "PromedioAsientos": 1,
+            "PromedioIluminacion": 1,
+            "CalificacionPromedioGlobal": 1,
+            "Link": "https://ucampus.uchile.cl/m/fcfm_eventos/objeto?objeto=sala-13"
+        }
+    },
+    {
+        "model": "ReseñasSalasBeauchef.sala",
+        "pk": 9,
+        "fields": {
+            "NombreSala": "B114",
+            "Edificio": "Edificio Computaci\u00f3n",
+            "CapacidadNormal": 22,
+            "CapacidadExamen": 0,
+            "Aforo": 0,
+            "Hibrido": false,
+            "PromedioVisibilidad": 1,
+            "PromedioSonido": 1,
+            "PromedioAsientos": 1,
+            "PromedioIluminacion": 1,
+            "CalificacionPromedioGlobal": 1,
+            "Link": "https://ucampus.uchile.cl/m/fcfm_eventos/objeto?objeto=sala-14"
+        }
+    },
+    {
+        "model": "ReseñasSalasBeauchef.sala",
+        "pk": 10,
+        "fields": {
+            "NombreSala": "B115",
+            "Edificio": "Edificio Computaci\u00f3n",
+            "CapacidadNormal": 22,
+            "CapacidadExamen": 0,
+            "Aforo": 0,
+            "Hibrido": false,
+            "PromedioVisibilidad": 1,
+            "PromedioSonido": 1,
+            "PromedioAsientos": 1,
+            "PromedioIluminacion": 1,
+            "CalificacionPromedioGlobal": 1,
+            "Link": "https://ucampus.uchile.cl/m/fcfm_eventos/objeto?objeto=sala-15"
+        }
+    },
+    {
+        "model": "ReseñasSalasBeauchef.sala",
+        "pk": 11,
+        "fields": {
+            "NombreSala": "QP",
+            "Edificio": "Edificio Qu\u00edmica",
+            "CapacidadNormal": 96,
+            "CapacidadExamen": 48,
+            "Aforo": 0,
+            "Hibrido": true,
+            "PromedioVisibilidad": 1,
+            "PromedioSonido": 1,
+            "PromedioAsientos": 1,
+            "PromedioIluminacion": 1,
+            "CalificacionPromedioGlobal": 1,
+            "Link": "https://ucampus.uchile.cl/m/fcfm_eventos/objeto?objeto=sala-16"
+        }
+    },
+    {
+        "model": "ReseñasSalasBeauchef.sala",
+        "pk": 12,
+        "fields": {
+            "NombreSala": "QO",
+            "Edificio": "Edificio Qu\u00edmica",
+            "CapacidadNormal": 96,
+            "CapacidadExamen": 48,
+            "Aforo": 36,
+            "Hibrido": true,
+            "PromedioVisibilidad": 1,
+            "PromedioSonido": 1,
+            "PromedioAsientos": 1,
+            "PromedioIluminacion": 1,
+            "CalificacionPromedioGlobal": 1,
+            "Link": "https://ucampus.uchile.cl/m/fcfm_eventos/objeto?objeto=sala-17"
+        }
+    },
+    {
+        "model": "ReseñasSalasBeauchef.sala",
+        "pk": 13,
+        "fields": {
+            "NombreSala": "Q10",
+            "Edificio": "Edificio Qu\u00edmica",
+            "CapacidadNormal": 138,
+            "CapacidadExamen": 69,
+            "Aforo": 0,
+            "Hibrido": false,
+            "PromedioVisibilidad": 1,
+            "PromedioSonido": 1,
+            "PromedioAsientos": 1,
+            "PromedioIluminacion": 1,
+            "CalificacionPromedioGlobal": 1,
+            "Link": "https://ucampus.uchile.cl/m/fcfm_eventos/objeto?objeto=sala-19"
+        }
+    },
+    {
+        "model": "ReseñasSalasBeauchef.sala",
+        "pk": 14,
+        "fields": {
+            "NombreSala": "Q12",
+            "Edificio": "Edificio Qu\u00edmica",
+            "CapacidadNormal": 59,
+            "CapacidadExamen": 30,
+            "Aforo": 0,
+            "Hibrido": false,
+            "PromedioVisibilidad": 1,
+            "PromedioSonido": 1,
+            "PromedioAsientos": 1,
+            "PromedioIluminacion": 1,
+            "CalificacionPromedioGlobal": 1,
+            "Link": "https://ucampus.uchile.cl/m/fcfm_eventos/objeto?objeto=sala-21"
+        }
+    },
+    {
+        "model": "ReseñasSalasBeauchef.sala",
+        "pk": 15,
+        "fields": {
+            "NombreSala": "Q13",
+            "Edificio": "Edificio Qu\u00edmica",
+            "CapacidadNormal": 39,
+            "CapacidadExamen": 19,
+            "Aforo": 0,
+            "Hibrido": false,
+            "PromedioVisibilidad": 1,
+            "PromedioSonido": 1,
+            "PromedioAsientos": 1,
+            "PromedioIluminacion": 1,
+            "CalificacionPromedioGlobal": 1,
+            "Link": "https://ucampus.uchile.cl/m/fcfm_eventos/objeto?objeto=sala-22"
+        }
+    },
+    {
+        "model": "ReseñasSalasBeauchef.sala",
+        "pk": 16,
+        "fields": {
+            "NombreSala": "E111",
+            "Edificio": "Edificio El\u00e9ctrica",
+            "CapacidadNormal": 95,
+            "CapacidadExamen": 47,
+            "Aforo": 33,
+            "Hibrido": true,
+            "PromedioVisibilidad": 1,
+            "PromedioSonido": 1,
+            "PromedioAsientos": 1,
+            "PromedioIluminacion": 1,
+            "CalificacionPromedioGlobal": 1,
+            "Link": "https://ucampus.uchile.cl/m/fcfm_eventos/objeto?objeto=sala-27"
+        }
+    },
+    {
+        "model": "ReseñasSalasBeauchef.sala",
+        "pk": 17,
+        "fields": {
+            "NombreSala": "E213",
+            "Edificio": "Edificio El\u00e9ctrica",
+            "CapacidadNormal": 50,
+            "CapacidadExamen": 25,
+            "Aforo": 0,
+            "Hibrido": false,
+            "PromedioVisibilidad": 1,
+            "PromedioSonido": 1,
+            "PromedioAsientos": 1,
+            "PromedioIluminacion": 1,
+            "CalificacionPromedioGlobal": 1,
+            "Link": "https://ucampus.uchile.cl/m/fcfm_eventos/objeto?objeto=sala-28"
+        }
+    },
+    {
+        "model": "ReseñasSalasBeauchef.sala",
+        "pk": 18,
+        "fields": {
+            "NombreSala": "F9",
+            "Edificio": "Edificio F\u00edsica",
+            "CapacidadNormal": 40,
+            "CapacidadExamen": 20,
+            "Aforo": 0,
+            "Hibrido": false,
+            "PromedioVisibilidad": 1,
+            "PromedioSonido": 1,
+            "PromedioAsientos": 1,
+            "PromedioIluminacion": 1,
+            "CalificacionPromedioGlobal": 1,
+            "Link": "https://ucampus.uchile.cl/m/fcfm_eventos/objeto?objeto=sala-42"
+        }
+    },
+    {
+        "model": "ReseñasSalasBeauchef.sala",
+        "pk": 19,
+        "fields": {
+            "NombreSala": "F10",
+            "Edificio": "Edificio F\u00edsica",
+            "CapacidadNormal": 152,
+            "CapacidadExamen": 76,
+            "Aforo": 0,
+            "Hibrido": false,
+            "PromedioVisibilidad": 1,
+            "PromedioSonido": 1,
+            "PromedioAsientos": 1,
+            "PromedioIluminacion": 1,
+            "CalificacionPromedioGlobal": 1,
+            "Link": "https://ucampus.uchile.cl/m/fcfm_eventos/objeto?objeto=sala-43"
+        }
+    },
+    {
+        "model": "ReseñasSalasBeauchef.sala",
+        "pk": 20,
+        "fields": {
+            "NombreSala": "F11",
+            "Edificio": "Edificio F\u00edsica",
+            "CapacidadNormal": 40,
+            "CapacidadExamen": 20,
+            "Aforo": 0,
+            "Hibrido": false,
+            "PromedioVisibilidad": 1,
+            "PromedioSonido": 1,
+            "PromedioAsientos": 1,
+            "PromedioIluminacion": 1,
+            "CalificacionPromedioGlobal": 1,
+            "Link": "https://ucampus.uchile.cl/m/fcfm_eventos/objeto?objeto=sala-45"
+        }
+    },
+    {
+        "model": "ReseñasSalasBeauchef.sala",
+        "pk": 21,
+        "fields": {
+            "NombreSala": "F12",
+            "Edificio": "Edificio F\u00edsica",
+            "CapacidadNormal": 56,
+            "CapacidadExamen": 28,
+            "Aforo": 0,
+            "Hibrido": false,
+            "PromedioVisibilidad": 1,
+            "PromedioSonido": 1,
+            "PromedioAsientos": 1,
+            "PromedioIluminacion": 1,
+            "CalificacionPromedioGlobal": 1,
+            "Link": "https://ucampus.uchile.cl/m/fcfm_eventos/objeto?objeto=sala-46"
+        }
+    },
+    {
+        "model": "ReseñasSalasBeauchef.sala",
+        "pk": 22,
+        "fields": {
+            "NombreSala": "F20",
+            "Edificio": "Edificio F\u00edsica",
+            "CapacidadNormal": 96,
+            "CapacidadExamen": 48,
+            "Aforo": 38,
+            "Hibrido": true,
+            "PromedioVisibilidad": 1,
+            "PromedioSonido": 1,
+            "PromedioAsientos": 1,
+            "PromedioIluminacion": 1,
+            "CalificacionPromedioGlobal": 1,
+            "Link": "https://ucampus.uchile.cl/m/fcfm_eventos/objeto?objeto=sala-47"
+        }
+    },
+    {
+        "model": "ReseñasSalasBeauchef.sala",
+        "pk": 23,
+        "fields": {
+            "NombreSala": "F21",
+            "Edificio": "Edificio F\u00edsica",
+            "CapacidadNormal": 96,
+            "CapacidadExamen": 48,
+            "Aforo": 36,
+            "Hibrido": true,
+            "PromedioVisibilidad": 1,
+            "PromedioSonido": 1,
+            "PromedioAsientos": 1,
+            "PromedioIluminacion": 1,
+            "CalificacionPromedioGlobal": 1,
+            "Link": "https://ucampus.uchile.cl/m/fcfm_eventos/objeto?objeto=sala-48"
+        }
+    },
+    {
+        "model": "ReseñasSalasBeauchef.sala",
+        "pk": 24,
+        "fields": {
+            "NombreSala": "F22",
+            "Edificio": "Edificio F\u00edsica",
+            "CapacidadNormal": 43,
+            "CapacidadExamen": 21,
+            "Aforo": 0,
+            "Hibrido": false,
+            "PromedioVisibilidad": 1,
+            "PromedioSonido": 1,
+            "PromedioAsientos": 1,
+            "PromedioIluminacion": 1,
+            "CalificacionPromedioGlobal": 1,
+            "Link": "https://ucampus.uchile.cl/m/fcfm_eventos/objeto?objeto=sala-49"
+        }
+    },
+    {
+        "model": "ReseñasSalasBeauchef.sala",
+        "pk": 25,
+        "fields": {
+            "NombreSala": "S03",
+            "Edificio": "Edificio Escuela",
+            "CapacidadNormal": 68,
+            "CapacidadExamen": 34,
+            "Aforo": 0,
+            "Hibrido": false,
+            "PromedioVisibilidad": 1,
+            "PromedioSonido": 1,
+            "PromedioAsientos": 1,
+            "PromedioIluminacion": 1,
+            "CalificacionPromedioGlobal": 1,
+            "Link": "https://ucampus.uchile.cl/m/fcfm_eventos/objeto?objeto=sala-53"
+        }
+    },
+    {
+        "model": "ReseñasSalasBeauchef.sala",
+        "pk": 26,
+        "fields": {
+            "NombreSala": "S05",
+            "Edificio": "Edificio Escuela",
+            "CapacidadNormal": 56,
+            "CapacidadExamen": 28,
+            "Aforo": 0,
+            "Hibrido": false,
+            "PromedioVisibilidad": 1,
+            "PromedioSonido": 1,
+            "PromedioAsientos": 1,
+            "PromedioIluminacion": 1,
+            "CalificacionPromedioGlobal": 1,
+            "Link": "https://ucampus.uchile.cl/m/fcfm_eventos/objeto?objeto=sala-54"
+        }
+    },
+    {
+        "model": "ReseñasSalasBeauchef.sala",
+        "pk": 27,
+        "fields": {
+            "NombreSala": "S15",
+            "Edificio": "Edificio Escuela",
+            "CapacidadNormal": 80,
+            "CapacidadExamen": 40,
+            "Aforo": 32,
+            "Hibrido": true,
+            "PromedioVisibilidad": 1,
+            "PromedioSonido": 1,
+            "PromedioAsientos": 1,
+            "PromedioIluminacion": 1,
+            "CalificacionPromedioGlobal": 1,
+            "Link": "https://ucampus.uchile.cl/m/fcfm_eventos/objeto?objeto=sala-55"
+        }
+    },
+    {
+        "model": "ReseñasSalasBeauchef.sala",
+        "pk": 28,
+        "fields": {
+            "NombreSala": "S17",
+            "Edificio": "Edificio Escuela",
+            "CapacidadNormal": 68,
+            "CapacidadExamen": 36,
+            "Aforo": 0,
+            "Hibrido": false,
+            "PromedioVisibilidad": 1,
+            "PromedioSonido": 1,
+            "PromedioAsientos": 1,
+            "PromedioIluminacion": 1,
+            "CalificacionPromedioGlobal": 1,
+            "Link": "https://ucampus.uchile.cl/m/fcfm_eventos/objeto?objeto=sala-57"
+        }
+    },
+    {
+        "model": "ReseñasSalasBeauchef.sala",
+        "pk": 29,
+        "fields": {
+            "NombreSala": "S18",
+            "Edificio": "Edificio Escuela",
+            "CapacidadNormal": 24,
+            "CapacidadExamen": 0,
+            "Aforo": 0,
+            "Hibrido": false,
+            "PromedioVisibilidad": 1,
+            "PromedioSonido": 1,
+            "PromedioAsientos": 1,
+            "PromedioIluminacion": 1,
+            "CalificacionPromedioGlobal": 1,
+            "Link": "https://ucampus.uchile.cl/m/fcfm_eventos/objeto?objeto=sala-58"
+        }
+    },
+    {
+        "model": "ReseñasSalasBeauchef.sala",
+        "pk": 30,
+        "fields": {
+            "NombreSala": "S19",
+            "Edificio": "Edificio Escuela",
+            "CapacidadNormal": 84,
+            "CapacidadExamen": 40,
+            "Aforo": 30,
+            "Hibrido": true,
+            "PromedioVisibilidad": 1,
+            "PromedioSonido": 1,
+            "PromedioAsientos": 1,
+            "PromedioIluminacion": 1,
+            "CalificacionPromedioGlobal": 1,
+            "Link": "https://ucampus.uchile.cl/m/fcfm_eventos/objeto?objeto=sala-59"
+        }
+    },
+    {
+        "model": "ReseñasSalasBeauchef.sala",
+        "pk": 31,
+        "fields": {
+            "NombreSala": "S25",
+            "Edificio": "Edificio Escuela",
+            "CapacidadNormal": 55,
+            "CapacidadExamen": 27,
+            "Aforo": 0,
+            "Hibrido": false,
+            "PromedioVisibilidad": 1,
+            "PromedioSonido": 1,
+            "PromedioAsientos": 1,
+            "PromedioIluminacion": 1,
+            "CalificacionPromedioGlobal": 1,
+            "Link": "https://ucampus.uchile.cl/m/fcfm_eventos/objeto?objeto=sala-60"
+        }
+    },
+    {
+        "model": "ReseñasSalasBeauchef.sala",
+        "pk": 32,
+        "fields": {
+            "NombreSala": "S26",
+            "Edificio": "Edificio Escuela",
+            "CapacidadNormal": 76,
+            "CapacidadExamen": 38,
+            "Aforo": 27,
+            "Hibrido": true,
+            "PromedioVisibilidad": 1,
+            "PromedioSonido": 1,
+            "PromedioAsientos": 1,
+            "PromedioIluminacion": 1,
+            "CalificacionPromedioGlobal": 1,
+            "Link": "https://ucampus.uchile.cl/m/fcfm_eventos/objeto?objeto=sala-61"
+        }
+    },
+    {
+        "model": "ReseñasSalasBeauchef.sala",
+        "pk": 33,
+        "fields": {
+            "NombreSala": "S28",
+            "Edificio": "Edificio Escuela",
+            "CapacidadNormal": 80,
+            "CapacidadExamen": 40,
+            "Aforo": 28,
+            "Hibrido": true,
+            "PromedioVisibilidad": 1,
+            "PromedioSonido": 1,
+            "PromedioAsientos": 1,
+            "PromedioIluminacion": 1,
+            "CalificacionPromedioGlobal": 1,
+            "Link": "https://ucampus.uchile.cl/m/fcfm_eventos/objeto?objeto=sala-63"
+        }
+    },
+    {
+        "model": "ReseñasSalasBeauchef.sala",
+        "pk": 34,
+        "fields": {
+            "NombreSala": "S29",
+            "Edificio": "Edificio Escuela",
+            "CapacidadNormal": 38,
+            "CapacidadExamen": 18,
+            "Aforo": 0,
+            "Hibrido": false,
+            "PromedioVisibilidad": 1,
+            "PromedioSonido": 1,
+            "PromedioAsientos": 1,
+            "PromedioIluminacion": 1,
+            "CalificacionPromedioGlobal": 1,
+            "Link": "https://ucampus.uchile.cl/m/fcfm_eventos/objeto?objeto=sala-64"
+        }
+    },
+    {
+        "model": "ReseñasSalasBeauchef.sala",
+        "pk": 35,
+        "fields": {
+            "NombreSala": "DII 21",
+            "Edificio": "Domeyko 2338 (DII)",
+            "CapacidadNormal": 45,
+            "CapacidadExamen": 22,
+            "Aforo": 0,
+            "Hibrido": false,
+            "PromedioVisibilidad": 1,
+            "PromedioSonido": 1,
+            "PromedioAsientos": 1,
+            "PromedioIluminacion": 1,
+            "CalificacionPromedioGlobal": 1,
+            "Link": "https://ucampus.uchile.cl/m/fcfm_eventos/objeto?objeto=sala-65"
+        }
+    },
+    {
+        "model": "ReseñasSalasBeauchef.sala",
+        "pk": 36,
+        "fields": {
+            "NombreSala": "DII 22",
+            "Edificio": "Domeyko 2338 (DII)",
+            "CapacidadNormal": 45,
+            "CapacidadExamen": 22,
+            "Aforo": 0,
+            "Hibrido": false,
+            "PromedioVisibilidad": 1,
+            "PromedioSonido": 1,
+            "PromedioAsientos": 1,
+            "PromedioIluminacion": 1,
+            "CalificacionPromedioGlobal": 1,
+            "Link": "https://ucampus.uchile.cl/m/fcfm_eventos/objeto?objeto=sala-66"
+        }
+    },
+    {
+        "model": "ReseñasSalasBeauchef.sala",
+        "pk": 37,
+        "fields": {
+            "NombreSala": "DII 33",
+            "Edificio": "Domeyko 2338 (DII)",
+            "CapacidadNormal": 50,
+            "CapacidadExamen": 25,
+            "Aforo": 0,
+            "Hibrido": false,
+            "PromedioVisibilidad": 1,
+            "PromedioSonido": 1,
+            "PromedioAsientos": 1,
+            "PromedioIluminacion": 1,
+            "CalificacionPromedioGlobal": 1,
+            "Link": "https://ucampus.uchile.cl/m/fcfm_eventos/objeto?objeto=sala-68"
+        }
+    },
+    {
+        "model": "ReseñasSalasBeauchef.sala",
+        "pk": 38,
+        "fields": {
+            "NombreSala": "DII 24",
+            "Edificio": "Domeyko 2338 (DII)",
+            "CapacidadNormal": 40,
+            "CapacidadExamen": 20,
+            "Aforo": 0,
+            "Hibrido": false,
+            "PromedioVisibilidad": 1,
+            "PromedioSonido": 1,
+            "PromedioAsientos": 1,
+            "PromedioIluminacion": 1,
+            "CalificacionPromedioGlobal": 1,
+            "Link": "https://ucampus.uchile.cl/m/fcfm_eventos/objeto?objeto=sala-69"
+        }
+    },
+    {
+        "model": "ReseñasSalasBeauchef.sala",
+        "pk": 39,
+        "fields": {
+            "NombreSala": "S14",
+            "Edificio": "Edificio Escuela",
+            "CapacidadNormal": 67,
+            "CapacidadExamen": 33,
+            "Aforo": 0,
+            "Hibrido": false,
+            "PromedioVisibilidad": 1,
+            "PromedioSonido": 1,
+            "PromedioAsientos": 1,
+            "PromedioIluminacion": 1,
+            "CalificacionPromedioGlobal": 1,
+            "Link": "https://ucampus.uchile.cl/m/fcfm_eventos/objeto?objeto=sala-81"
+        }
+    },
+    {
+        "model": "ReseñasSalasBeauchef.sala",
+        "pk": 40,
+        "fields": {
+            "NombreSala": "S24",
+            "Edificio": "Edificio Escuela",
+            "CapacidadNormal": 70,
+            "CapacidadExamen": 35,
+            "Aforo": 0,
+            "Hibrido": false,
+            "PromedioVisibilidad": 1,
+            "PromedioSonido": 1,
+            "PromedioAsientos": 1,
+            "PromedioIluminacion": 1,
+            "CalificacionPromedioGlobal": 1,
+            "Link": "https://ucampus.uchile.cl/m/fcfm_eventos/objeto?objeto=sala-82"
+        }
+    },
+    {
+        "model": "ReseñasSalasBeauchef.sala",
+        "pk": 41,
+        "fields": {
+            "NombreSala": "LAB FLUIDOS",
+            "Edificio": "Edificio Civil",
+            "CapacidadNormal": 1,
+            "CapacidadExamen": 0,
+            "Aforo": 0,
+            "Hibrido": false,
+            "PromedioVisibilidad": 1,
+            "PromedioSonido": 1,
+            "PromedioAsientos": 1,
+            "PromedioIluminacion": 1,
+            "CalificacionPromedioGlobal": 1,
+            "Link": "https://ucampus.uchile.cl/m/fcfm_eventos/objeto?objeto=sala-83"
+        }
+    },
+    {
+        "model": "ReseñasSalasBeauchef.sala",
+        "pk": 42,
+        "fields": {
+            "NombreSala": "N02",
+            "Edificio": "Edificio Escuela",
+            "CapacidadNormal": 44,
+            "CapacidadExamen": 22,
+            "Aforo": 0,
+            "Hibrido": false,
+            "PromedioVisibilidad": 1,
+            "PromedioSonido": 1,
+            "PromedioAsientos": 1,
+            "PromedioIluminacion": 1,
+            "CalificacionPromedioGlobal": 1,
+            "Link": "https://ucampus.uchile.cl/m/fcfm_eventos/objeto?objeto=sala-92"
+        }
+    },
+    {
+        "model": "ReseñasSalasBeauchef.sala",
+        "pk": 43,
+        "fields": {
+            "NombreSala": "DII 31",
+            "Edificio": "Domeyko 2338 (DII)",
+            "CapacidadNormal": 84,
+            "CapacidadExamen": 42,
+            "Aforo": 0,
+            "Hibrido": false,
+            "PromedioVisibilidad": 1,
+            "PromedioSonido": 1,
+            "PromedioAsientos": 1,
+            "PromedioIluminacion": 1,
+            "CalificacionPromedioGlobal": 1,
+            "Link": "https://ucampus.uchile.cl/m/fcfm_eventos/objeto?objeto=sala-97"
+        }
+    },
+    {
+        "model": "ReseñasSalasBeauchef.sala",
+        "pk": 44,
+        "fields": {
+            "NombreSala": "SEMINARIO  MINAS",
+            "Edificio": "Edificio Qu\u00edmica",
+            "CapacidadNormal": 20,
+            "CapacidadExamen": 0,
+            "Aforo": 0,
+            "Hibrido": false,
+            "PromedioVisibilidad": 1,
+            "PromedioSonido": 1,
+            "PromedioAsientos": 1,
+            "PromedioIluminacion": 1,
+            "CalificacionPromedioGlobal": 1,
+            "Link": "https://ucampus.uchile.cl/m/fcfm_eventos/objeto?objeto=sala-99"
+        }
+    },
+    {
+        "model": "ReseñasSalasBeauchef.sala",
+        "pk": 45,
+        "fields": {
+            "NombreSala": "Taller Molina",
+            "Edificio": "Av. Blanco Encalada 2743",
+            "CapacidadNormal": 70,
+            "CapacidadExamen": 0,
+            "Aforo": 0,
+            "Hibrido": false,
+            "PromedioVisibilidad": 1,
+            "PromedioSonido": 1,
+            "PromedioAsientos": 1,
+            "PromedioIluminacion": 1,
+            "CalificacionPromedioGlobal": 1,
+            "Link": "https://ucampus.uchile.cl/m/fcfm_eventos/objeto?objeto=sala-100"
+        }
+    },
+    {
+        "model": "ReseñasSalasBeauchef.sala",
+        "pk": 46,
+        "fields": {
+            "NombreSala": "Multiuso",
+            "Edificio": "Edificio Escuela",
+            "CapacidadNormal": 100,
+            "CapacidadExamen": 0,
+            "Aforo": 35,
+            "Hibrido": false,
+            "PromedioVisibilidad": 1,
+            "PromedioSonido": 1,
+            "PromedioAsientos": 1,
+            "PromedioIluminacion": 1,
+            "CalificacionPromedioGlobal": 1,
+            "Link": "https://ucampus.uchile.cl/m/fcfm_eventos/objeto?objeto=sala-101"
+        }
+    },
+    {
+        "model": "ReseñasSalasBeauchef.sala",
+        "pk": 47,
+        "fields": {
+            "NombreSala": "T\u00edtulos y Grados",
+            "Edificio": "Edificio Central",
+            "CapacidadNormal": 10,
+            "CapacidadExamen": 0,
+            "Aforo": 0,
+            "Hibrido": false,
+            "PromedioVisibilidad": 1,
+            "PromedioSonido": 1,
+            "PromedioAsientos": 1,
+            "PromedioIluminacion": 1,
+            "CalificacionPromedioGlobal": 1,
+            "Link": "https://ucampus.uchile.cl/m/fcfm_eventos/objeto?objeto=sala-102"
+        }
+    },
+    {
+        "model": "ReseñasSalasBeauchef.sala",
+        "pk": 48,
+        "fields": {
+            "NombreSala": "SALA SEMINARIO ING. CIVIL",
+            "Edificio": "Edificio Civil",
+            "CapacidadNormal": 10,
+            "CapacidadExamen": 0,
+            "Aforo": 0,
+            "Hibrido": false,
+            "PromedioVisibilidad": 1,
+            "PromedioSonido": 1,
+            "PromedioAsientos": 1,
+            "PromedioIluminacion": 1,
+            "CalificacionPromedioGlobal": 1,
+            "Link": "https://ucampus.uchile.cl/m/fcfm_eventos/objeto?objeto=sala-103"
+        }
+    },
+    {
+        "model": "ReseñasSalasBeauchef.sala",
+        "pk": 49,
+        "fields": {
+            "NombreSala": "DII211",
+            "Edificio": "Edificio Ingenier\u00eda Industrial",
+            "CapacidadNormal": 30,
+            "CapacidadExamen": 0,
+            "Aforo": 0,
+            "Hibrido": false,
+            "PromedioVisibilidad": 1,
+            "PromedioSonido": 1,
+            "PromedioAsientos": 1,
+            "PromedioIluminacion": 1,
+            "CalificacionPromedioGlobal": 1,
+            "Link": "https://ucampus.uchile.cl/m/fcfm_eventos/objeto?objeto=sala-105"
+        }
+    },
+    {
+        "model": "ReseñasSalasBeauchef.sala",
+        "pk": 50,
+        "fields": {
+            "NombreSala": "SEM. MA",
+            "Edificio": "Edificio Computaci\u00f3n",
+            "CapacidadNormal": 20,
+            "CapacidadExamen": 0,
+            "Aforo": 0,
+            "Hibrido": false,
+            "PromedioVisibilidad": 1,
+            "PromedioSonido": 1,
+            "PromedioAsientos": 1,
+            "PromedioIluminacion": 1,
+            "CalificacionPromedioGlobal": 1,
+            "Link": "https://ucampus.uchile.cl/m/fcfm_eventos/objeto?objeto=sala-107"
+        }
+    },
+    {
+        "model": "ReseñasSalasBeauchef.sala",
+        "pk": 51,
+        "fields": {
+            "NombreSala": "SEM. QI",
+            "Edificio": "Edificio Qu\u00edmica",
+            "CapacidadNormal": 22,
+            "CapacidadExamen": 0,
+            "Aforo": 0,
+            "Hibrido": false,
+            "PromedioVisibilidad": 1,
+            "PromedioSonido": 1,
+            "PromedioAsientos": 1,
+            "PromedioIluminacion": 1,
+            "CalificacionPromedioGlobal": 1,
+            "Link": "https://ucampus.uchile.cl/m/fcfm_eventos/objeto?objeto=sala-108"
+        }
+    },
+    {
+        "model": "ReseñasSalasBeauchef.sala",
+        "pk": 52,
+        "fields": {
+            "NombreSala": "Multicancha Beauchef 850",
+            "Edificio": "FCFM",
+            "CapacidadNormal": 100,
+            "CapacidadExamen": 0,
+            "Aforo": 100,
+            "Hibrido": false,
+            "PromedioVisibilidad": 1,
+            "PromedioSonido": 1,
+            "PromedioAsientos": 1,
+            "PromedioIluminacion": 1,
+            "CalificacionPromedioGlobal": 1,
+            "Link": "https://ucampus.uchile.cl/m/fcfm_eventos/objeto?objeto=sala-119"
+        }
+    },
+    {
+        "model": "ReseñasSalasBeauchef.sala",
+        "pk": 53,
+        "fields": {
+            "NombreSala": "N11",
+            "Edificio": "Edificio Escuela",
+            "CapacidadNormal": 44,
+            "CapacidadExamen": 22,
+            "Aforo": 0,
+            "Hibrido": false,
+            "PromedioVisibilidad": 1,
+            "PromedioSonido": 1,
+            "PromedioAsientos": 1,
+            "PromedioIluminacion": 1,
+            "CalificacionPromedioGlobal": 1,
+            "Link": "https://ucampus.uchile.cl/m/fcfm_eventos/objeto?objeto=sala-122"
+        }
+    },
+    {
+        "model": "ReseñasSalasBeauchef.sala",
+        "pk": 54,
+        "fields": {
+            "NombreSala": "B204",
+            "Edificio": "Edificio Computaci\u00f3n",
+            "CapacidadNormal": 128,
+            "CapacidadExamen": 64,
+            "Aforo": 0,
+            "Hibrido": false,
+            "PromedioVisibilidad": 1,
+            "PromedioSonido": 1,
+            "PromedioAsientos": 1,
+            "PromedioIluminacion": 1,
+            "CalificacionPromedioGlobal": 1,
+            "Link": "https://ucampus.uchile.cl/m/fcfm_eventos/objeto?objeto=sala-124"
+        }
+    },
+    {
+        "model": "ReseñasSalasBeauchef.sala",
+        "pk": 55,
+        "fields": {
+            "NombreSala": "B203",
+            "Edificio": "Edificio Computaci\u00f3n",
+            "CapacidadNormal": 64,
+            "CapacidadExamen": 30,
+            "Aforo": 0,
+            "Hibrido": false,
+            "PromedioVisibilidad": 1,
+            "PromedioSonido": 1,
+            "PromedioAsientos": 1,
+            "PromedioIluminacion": 1,
+            "CalificacionPromedioGlobal": 1,
+            "Link": "https://ucampus.uchile.cl/m/fcfm_eventos/objeto?objeto=sala-126"
+        }
+    },
+    {
+        "model": "ReseñasSalasBeauchef.sala",
+        "pk": 56,
+        "fields": {
+            "NombreSala": "B205",
+            "Edificio": "Edificio Computaci\u00f3n",
+            "CapacidadNormal": 64,
+            "CapacidadExamen": 30,
+            "Aforo": 0,
+            "Hibrido": false,
+            "PromedioVisibilidad": 1,
+            "PromedioSonido": 1,
+            "PromedioAsientos": 1,
+            "PromedioIluminacion": 1,
+            "CalificacionPromedioGlobal": 1,
+            "Link": "https://ucampus.uchile.cl/m/fcfm_eventos/objeto?objeto=sala-127"
+        }
+    },
+    {
+        "model": "ReseñasSalasBeauchef.sala",
+        "pk": 57,
+        "fields": {
+            "NombreSala": "B206",
+            "Edificio": "Edificio Computaci\u00f3n",
+            "CapacidadNormal": 26,
+            "CapacidadExamen": 0,
+            "Aforo": 0,
+            "Hibrido": false,
+            "PromedioVisibilidad": 1,
+            "PromedioSonido": 1,
+            "PromedioAsientos": 1,
+            "PromedioIluminacion": 1,
+            "CalificacionPromedioGlobal": 1,
+            "Link": "https://ucampus.uchile.cl/m/fcfm_eventos/objeto?objeto=sala-128"
+        }
+    },
+    {
+        "model": "ReseñasSalasBeauchef.sala",
+        "pk": 58,
+        "fields": {
+            "NombreSala": "B210",
+            "Edificio": "Edificio Computaci\u00f3n",
+            "CapacidadNormal": 26,
+            "CapacidadExamen": 0,
+            "Aforo": 0,
+            "Hibrido": false,
+            "PromedioVisibilidad": 1,
+            "PromedioSonido": 1,
+            "PromedioAsientos": 1,
+            "PromedioIluminacion": 1,
+            "CalificacionPromedioGlobal": 1,
+            "Link": "https://ucampus.uchile.cl/m/fcfm_eventos/objeto?objeto=sala-129"
+        }
+    },
+    {
+        "model": "ReseñasSalasBeauchef.sala",
+        "pk": 59,
+        "fields": {
+            "NombreSala": "B211",
+            "Edificio": "Edificio Computaci\u00f3n",
+            "CapacidadNormal": 64,
+            "CapacidadExamen": 30,
+            "Aforo": 0,
+            "Hibrido": false,
+            "PromedioVisibilidad": 1,
+            "PromedioSonido": 1,
+            "PromedioAsientos": 1,
+            "PromedioIluminacion": 1,
+            "CalificacionPromedioGlobal": 1,
+            "Link": "https://ucampus.uchile.cl/m/fcfm_eventos/objeto?objeto=sala-130"
+        }
+    },
+    {
+        "model": "ReseñasSalasBeauchef.sala",
+        "pk": 60,
+        "fields": {
+            "NombreSala": "B212",
+            "Edificio": "Edificio Computaci\u00f3n",
+            "CapacidadNormal": 100,
+            "CapacidadExamen": 50,
+            "Aforo": 0,
+            "Hibrido": false,
+            "PromedioVisibilidad": 1,
+            "PromedioSonido": 1,
+            "PromedioAsientos": 1,
+            "PromedioIluminacion": 1,
+            "CalificacionPromedioGlobal": 1,
+            "Link": "https://ucampus.uchile.cl/m/fcfm_eventos/objeto?objeto=sala-131"
+        }
+    },
+    {
+        "model": "ReseñasSalasBeauchef.sala",
+        "pk": 61,
+        "fields": {
+            "NombreSala": "B213",
+            "Edificio": "Edificio Computaci\u00f3n",
+            "CapacidadNormal": 64,
+            "CapacidadExamen": 30,
+            "Aforo": 0,
+            "Hibrido": false,
+            "PromedioVisibilidad": 1,
+            "PromedioSonido": 1,
+            "PromedioAsientos": 1,
+            "PromedioIluminacion": 1,
+            "CalificacionPromedioGlobal": 1,
+            "Link": "https://ucampus.uchile.cl/m/fcfm_eventos/objeto?objeto=sala-132"
+        }
+    },
+    {
+        "model": "ReseñasSalasBeauchef.sala",
+        "pk": 62,
+        "fields": {
+            "NombreSala": "B214",
+            "Edificio": "Edificio Computaci\u00f3n",
+            "CapacidadNormal": 22,
+            "CapacidadExamen": 0,
+            "Aforo": 0,
+            "Hibrido": false,
+            "PromedioVisibilidad": 1,
+            "PromedioSonido": 1,
+            "PromedioAsientos": 1,
+            "PromedioIluminacion": 1,
+            "CalificacionPromedioGlobal": 1,
+            "Link": "https://ucampus.uchile.cl/m/fcfm_eventos/objeto?objeto=sala-133"
+        }
+    },
+    {
+        "model": "ReseñasSalasBeauchef.sala",
+        "pk": 63,
+        "fields": {
+            "NombreSala": "SEM. FI",
+            "Edificio": "Edificio F\u00edsica",
+            "CapacidadNormal": 34,
+            "CapacidadExamen": 0,
+            "Aforo": 0,
+            "Hibrido": false,
+            "PromedioVisibilidad": 1,
+            "PromedioSonido": 1,
+            "PromedioAsientos": 1,
+            "PromedioIluminacion": 1,
+            "CalificacionPromedioGlobal": 1,
+            "Link": "https://ucampus.uchile.cl/m/fcfm_eventos/objeto?objeto=sala-147"
+        }
+    },
+    {
+        "model": "ReseñasSalasBeauchef.sala",
+        "pk": 64,
+        "fields": {
+            "NombreSala": "E214",
+            "Edificio": "Edificio El\u00e9ctrica",
+            "CapacidadNormal": 99,
+            "CapacidadExamen": 50,
+            "Aforo": 35,
+            "Hibrido": true,
+            "PromedioVisibilidad": 1,
+            "PromedioSonido": 1,
+            "PromedioAsientos": 1,
+            "PromedioIluminacion": 1,
+            "CalificacionPromedioGlobal": 1,
+            "Link": "https://ucampus.uchile.cl/m/fcfm_eventos/objeto?objeto=sala-149"
+        }
+    },
+    {
+        "model": "ReseñasSalasBeauchef.sala",
+        "pk": 65,
+        "fields": {
+            "NombreSala": "E216",
+            "Edificio": "Edificio El\u00e9ctrica",
+            "CapacidadNormal": 89,
+            "CapacidadExamen": 45,
+            "Aforo": 32,
+            "Hibrido": true,
+            "PromedioVisibilidad": 1,
+            "PromedioSonido": 1,
+            "PromedioAsientos": 1,
+            "PromedioIluminacion": 1,
+            "CalificacionPromedioGlobal": 1,
+            "Link": "https://ucampus.uchile.cl/m/fcfm_eventos/objeto?objeto=sala-150"
+        }
+    },
+    {
+        "model": "ReseñasSalasBeauchef.sala",
+        "pk": 66,
+        "fields": {
+            "NombreSala": "E215",
+            "Edificio": "Edificio El\u00e9ctrica",
+            "CapacidadNormal": 32,
+            "CapacidadExamen": 15,
+            "Aforo": 0,
+            "Hibrido": false,
+            "PromedioVisibilidad": 1,
+            "PromedioSonido": 1,
+            "PromedioAsientos": 1,
+            "PromedioIluminacion": 1,
+            "CalificacionPromedioGlobal": 1,
+            "Link": "https://ucampus.uchile.cl/m/fcfm_eventos/objeto?objeto=sala-151"
+        }
+    },
+    {
+        "model": "ReseñasSalasBeauchef.sala",
+        "pk": 67,
+        "fields": {
+            "NombreSala": "LMO Industrias",
+            "Edificio": "Edificio Ingenier\u00eda Industrial",
+            "CapacidadNormal": 24,
+            "CapacidadExamen": 0,
+            "Aforo": 0,
+            "Hibrido": false,
+            "PromedioVisibilidad": 1,
+            "PromedioSonido": 1,
+            "PromedioAsientos": 1,
+            "PromedioIluminacion": 1,
+            "CalificacionPromedioGlobal": 1,
+            "Link": "https://ucampus.uchile.cl/m/fcfm_eventos/objeto?objeto=sala-155"
+        }
+    },
+    {
+        "model": "ReseñasSalasBeauchef.sala",
+        "pk": 68,
+        "fields": {
+            "NombreSala": "G104",
+            "Edificio": "Edificio Geolog\u00eda",
+            "CapacidadNormal": 40,
+            "CapacidadExamen": 20,
+            "Aforo": 0,
+            "Hibrido": false,
+            "PromedioVisibilidad": 1,
+            "PromedioSonido": 1,
+            "PromedioAsientos": 1,
+            "PromedioIluminacion": 1,
+            "CalificacionPromedioGlobal": 1,
+            "Link": "https://ucampus.uchile.cl/m/fcfm_eventos/objeto?objeto=sala-182"
+        }
+    },
+    {
+        "model": "ReseñasSalasBeauchef.sala",
+        "pk": 69,
+        "fields": {
+            "NombreSala": "G106",
+            "Edificio": "Edificio Geolog\u00eda",
+            "CapacidadNormal": 45,
+            "CapacidadExamen": 22,
+            "Aforo": 0,
+            "Hibrido": false,
+            "PromedioVisibilidad": 1,
+            "PromedioSonido": 1,
+            "PromedioAsientos": 1,
+            "PromedioIluminacion": 1,
+            "CalificacionPromedioGlobal": 1,
+            "Link": "https://ucampus.uchile.cl/m/fcfm_eventos/objeto?objeto=sala-184"
+        }
+    },
+    {
+        "model": "ReseñasSalasBeauchef.sala",
+        "pk": 70,
+        "fields": {
+            "NombreSala": "G107",
+            "Edificio": "Edificio Geolog\u00eda",
+            "CapacidadNormal": 52,
+            "CapacidadExamen": 25,
+            "Aforo": 0,
+            "Hibrido": false,
+            "PromedioVisibilidad": 1,
+            "PromedioSonido": 1,
+            "PromedioAsientos": 1,
+            "PromedioIluminacion": 1,
+            "CalificacionPromedioGlobal": 1,
+            "Link": "https://ucampus.uchile.cl/m/fcfm_eventos/objeto?objeto=sala-185"
+        }
+    },
+    {
+        "model": "ReseñasSalasBeauchef.sala",
+        "pk": 71,
+        "fields": {
+            "NombreSala": "G108",
+            "Edificio": "Edificio Geolog\u00eda",
+            "CapacidadNormal": 90,
+            "CapacidadExamen": 45,
+            "Aforo": 0,
+            "Hibrido": false,
+            "PromedioVisibilidad": 1,
+            "PromedioSonido": 1,
+            "PromedioAsientos": 1,
+            "PromedioIluminacion": 1,
+            "CalificacionPromedioGlobal": 1,
+            "Link": "https://ucampus.uchile.cl/m/fcfm_eventos/objeto?objeto=sala-186"
+        }
+    },
+    {
+        "model": "ReseñasSalasBeauchef.sala",
+        "pk": 72,
+        "fields": {
+            "NombreSala": "G110",
+            "Edificio": "Edificio Geolog\u00eda",
+            "CapacidadNormal": 40,
+            "CapacidadExamen": 20,
+            "Aforo": 0,
+            "Hibrido": false,
+            "PromedioVisibilidad": 1,
+            "PromedioSonido": 1,
+            "PromedioAsientos": 1,
+            "PromedioIluminacion": 1,
+            "CalificacionPromedioGlobal": 1,
+            "Link": "https://ucampus.uchile.cl/m/fcfm_eventos/objeto?objeto=sala-188"
+        }
+    },
+    {
+        "model": "ReseñasSalasBeauchef.sala",
+        "pk": 73,
+        "fields": {
+            "NombreSala": "G201",
+            "Edificio": "Edificio Geolog\u00eda",
+            "CapacidadNormal": 76,
+            "CapacidadExamen": 38,
+            "Aforo": 0,
+            "Hibrido": false,
+            "PromedioVisibilidad": 1,
+            "PromedioSonido": 1,
+            "PromedioAsientos": 1,
+            "PromedioIluminacion": 1,
+            "CalificacionPromedioGlobal": 1,
+            "Link": "https://ucampus.uchile.cl/m/fcfm_eventos/objeto?objeto=sala-189"
+        }
+    },
+    {
+        "model": "ReseñasSalasBeauchef.sala",
+        "pk": 74,
+        "fields": {
+            "NombreSala": "G301",
+            "Edificio": "Edificio Geolog\u00eda",
+            "CapacidadNormal": 104,
+            "CapacidadExamen": 52,
+            "Aforo": 36,
+            "Hibrido": true,
+            "PromedioVisibilidad": 1,
+            "PromedioSonido": 1,
+            "PromedioAsientos": 1,
+            "PromedioIluminacion": 1,
+            "CalificacionPromedioGlobal": 1,
+            "Link": "https://ucampus.uchile.cl/m/fcfm_eventos/objeto?objeto=sala-190"
+        }
+    },
+    {
+        "model": "ReseñasSalasBeauchef.sala",
+        "pk": 75,
+        "fields": {
+            "NombreSala": "G302",
+            "Edificio": "Edificio Geolog\u00eda",
+            "CapacidadNormal": 88,
+            "CapacidadExamen": 44,
+            "Aforo": 31,
+            "Hibrido": true,
+            "PromedioVisibilidad": 1,
+            "PromedioSonido": 1,
+            "PromedioAsientos": 1,
+            "PromedioIluminacion": 1,
+            "CalificacionPromedioGlobal": 1,
+            "Link": "https://ucampus.uchile.cl/m/fcfm_eventos/objeto?objeto=sala-191"
+        }
+    },
+    {
+        "model": "ReseñasSalasBeauchef.sala",
+        "pk": 76,
+        "fields": {
+            "NombreSala": "G303",
+            "Edificio": "Edificio Geolog\u00eda",
+            "CapacidadNormal": 74,
+            "CapacidadExamen": 37,
+            "Aforo": 0,
+            "Hibrido": true,
+            "PromedioVisibilidad": 1,
+            "PromedioSonido": 1,
+            "PromedioAsientos": 1,
+            "PromedioIluminacion": 1,
+            "CalificacionPromedioGlobal": 1,
+            "Link": "https://ucampus.uchile.cl/m/fcfm_eventos/objeto?objeto=sala-192"
+        }
+    },
+    {
+        "model": "ReseñasSalasBeauchef.sala",
+        "pk": 77,
+        "fields": {
+            "NombreSala": "G304",
+            "Edificio": "Edificio Geolog\u00eda",
+            "CapacidadNormal": 114,
+            "CapacidadExamen": 55,
+            "Aforo": 40,
+            "Hibrido": true,
+            "PromedioVisibilidad": 1,
+            "PromedioSonido": 1,
+            "PromedioAsientos": 1,
+            "PromedioIluminacion": 1,
+            "CalificacionPromedioGlobal": 1,
+            "Link": "https://ucampus.uchile.cl/m/fcfm_eventos/objeto?objeto=sala-193"
+        }
+    },
+    {
+        "model": "ReseñasSalasBeauchef.sala",
+        "pk": 78,
+        "fields": {
+            "NombreSala": "G305",
+            "Edificio": "Edificio Geolog\u00eda",
+            "CapacidadNormal": 114,
+            "CapacidadExamen": 57,
+            "Aforo": 40,
+            "Hibrido": true,
+            "PromedioVisibilidad": 1,
+            "PromedioSonido": 1,
+            "PromedioAsientos": 1,
+            "PromedioIluminacion": 1,
+            "CalificacionPromedioGlobal": 1,
+            "Link": "https://ucampus.uchile.cl/m/fcfm_eventos/objeto?objeto=sala-194"
+        }
+    },
+    {
+        "model": "ReseñasSalasBeauchef.sala",
+        "pk": 79,
+        "fields": {
+            "NombreSala": "G306",
+            "Edificio": "Edificio Geolog\u00eda",
+            "CapacidadNormal": 80,
+            "CapacidadExamen": 40,
+            "Aforo": 28,
+            "Hibrido": true,
+            "PromedioVisibilidad": 1,
+            "PromedioSonido": 1,
+            "PromedioAsientos": 1,
+            "PromedioIluminacion": 1,
+            "CalificacionPromedioGlobal": 1,
+            "Link": "https://ucampus.uchile.cl/m/fcfm_eventos/objeto?objeto=sala-195"
+        }
+    },
+    {
+        "model": "ReseñasSalasBeauchef.sala",
+        "pk": 80,
+        "fields": {
+            "NombreSala": "G111",
+            "Edificio": "Edificio Geolog\u00eda",
+            "CapacidadNormal": 44,
+            "CapacidadExamen": 22,
+            "Aforo": 0,
+            "Hibrido": false,
+            "PromedioVisibilidad": 1,
+            "PromedioSonido": 1,
+            "PromedioAsientos": 1,
+            "PromedioIluminacion": 1,
+            "CalificacionPromedioGlobal": 1,
+            "Link": "https://ucampus.uchile.cl/m/fcfm_eventos/objeto?objeto=sala-199"
+        }
+    },
+    {
+        "model": "ReseñasSalasBeauchef.sala",
+        "pk": 81,
+        "fields": {
+            "NombreSala": "GALILEO",
+            "Edificio": "Edificio F\u00edsica",
+            "CapacidadNormal": 81,
+            "CapacidadExamen": 0,
+            "Aforo": 0,
+            "Hibrido": false,
+            "PromedioVisibilidad": 1,
+            "PromedioSonido": 1,
+            "PromedioAsientos": 1,
+            "PromedioIluminacion": 1,
+            "CalificacionPromedioGlobal": 1,
+            "Link": "https://ucampus.uchile.cl/m/fcfm_eventos/objeto?objeto=sala-206"
+        }
+    },
+    {
+        "model": "ReseñasSalasBeauchef.sala",
+        "pk": 82,
+        "fields": {
+            "NombreSala": "Sala Reuni\u00f3n, Piso 3, Depto. Ing.Civil",
+            "Edificio": "Edificio Civil",
+            "CapacidadNormal": 1,
+            "CapacidadExamen": 0,
+            "Aforo": 0,
+            "Hibrido": false,
+            "PromedioVisibilidad": 1,
+            "PromedioSonido": 1,
+            "PromedioAsientos": 1,
+            "PromedioIluminacion": 1,
+            "CalificacionPromedioGlobal": 1,
+            "Link": "https://ucampus.uchile.cl/m/fcfm_eventos/objeto?objeto=sala-223"
+        }
+    },
+    {
+        "model": "ReseñasSalasBeauchef.sala",
+        "pk": 83,
+        "fields": {
+            "NombreSala": "Aud. El\u00e9ctrica, Piso 4",
+            "Edificio": "Edificio El\u00e9ctrica",
+            "CapacidadNormal": 75,
+            "CapacidadExamen": 35,
+            "Aforo": 0,
+            "Hibrido": false,
+            "PromedioVisibilidad": 1,
+            "PromedioSonido": 1,
+            "PromedioAsientos": 1,
+            "PromedioIluminacion": 1,
+            "CalificacionPromedioGlobal": 1,
+            "Link": "https://ucampus.uchile.cl/m/fcfm_eventos/objeto?objeto=sala-231"
+        }
+    },
+    {
+        "model": "ReseñasSalasBeauchef.sala",
+        "pk": 84,
+        "fields": {
+            "NombreSala": "Gimnasio Domeyko",
+            "Edificio": "FCFM",
+            "CapacidadNormal": 100,
+            "CapacidadExamen": 0,
+            "Aforo": 26,
+            "Hibrido": false,
+            "PromedioVisibilidad": 1,
+            "PromedioSonido": 1,
+            "PromedioAsientos": 1,
+            "PromedioIluminacion": 1,
+            "CalificacionPromedioGlobal": 1,
+            "Link": "https://ucampus.uchile.cl/m/fcfm_eventos/objeto?objeto=sala-291"
+        }
+    },
+    {
+        "model": "ReseñasSalasBeauchef.sala",
+        "pk": 85,
+        "fields": {
+            "NombreSala": "B01",
+            "Edificio": "Beauchef 851",
+            "CapacidadNormal": 101,
+            "CapacidadExamen": 50,
+            "Aforo": 0,
+            "Hibrido": true,
+            "PromedioVisibilidad": 1,
+            "PromedioSonido": 1,
+            "PromedioAsientos": 1,
+            "PromedioIluminacion": 1,
+            "CalificacionPromedioGlobal": 1,
+            "Link": "https://ucampus.uchile.cl/m/fcfm_eventos/objeto?objeto=sala-464"
+        }
+    },
+    {
+        "model": "ReseñasSalasBeauchef.sala",
+        "pk": 86,
+        "fields": {
+            "NombreSala": "DII 23",
+            "Edificio": "Domeyko 2338 (DII)",
+            "CapacidadNormal": 45,
+            "CapacidadExamen": 22,
+            "Aforo": 0,
+            "Hibrido": false,
+            "PromedioVisibilidad": 1,
+            "PromedioSonido": 1,
+            "PromedioAsientos": 1,
+            "PromedioIluminacion": 1,
+            "CalificacionPromedioGlobal": 1,
+            "Link": "https://ucampus.uchile.cl/m/fcfm_eventos/objeto?objeto=sala-475"
+        }
+    },
+    {
+        "model": "ReseñasSalasBeauchef.sala",
+        "pk": 87,
+        "fields": {
+            "NombreSala": "B001",
+            "Edificio": "Edificio Computaci\u00f3n",
+            "CapacidadNormal": 32,
+            "CapacidadExamen": 16,
+            "Aforo": 0,
+            "Hibrido": false,
+            "PromedioVisibilidad": 1,
+            "PromedioSonido": 1,
+            "PromedioAsientos": 1,
+            "PromedioIluminacion": 1,
+            "CalificacionPromedioGlobal": 1,
+            "Link": "https://ucampus.uchile.cl/m/fcfm_eventos/objeto?objeto=sala-2988"
+        }
+    },
+    {
+        "model": "ReseñasSalasBeauchef.sala",
+        "pk": 88,
+        "fields": {
+            "NombreSala": "Laboratorio Microscopio",
+            "Edificio": "Edificio Geolog\u00eda",
+            "CapacidadNormal": 52,
+            "CapacidadExamen": 0,
+            "Aforo": 18,
+            "Hibrido": true,
+            "PromedioVisibilidad": 1,
+            "PromedioSonido": 1,
+            "PromedioAsientos": 1,
+            "PromedioIluminacion": 1,
+            "CalificacionPromedioGlobal": 1,
+            "Link": "https://ucampus.uchile.cl/m/fcfm_eventos/objeto?objeto=sala-2991"
+        }
+    },
+    {
+        "model": "ReseñasSalasBeauchef.sala",
+        "pk": 89,
+        "fields": {
+            "NombreSala": "S30",
+            "Edificio": "Edificio Escuela",
+            "CapacidadNormal": 26,
+            "CapacidadExamen": 0,
+            "Aforo": 0,
+            "Hibrido": false,
+            "PromedioVisibilidad": 1,
+            "PromedioSonido": 1,
+            "PromedioAsientos": 1,
+            "PromedioIluminacion": 1,
+            "CalificacionPromedioGlobal": 1,
+            "Link": "https://ucampus.uchile.cl/m/fcfm_eventos/objeto?objeto=sala-2997"
+        }
+    },
+    {
+        "model": "ReseñasSalasBeauchef.sala",
+        "pk": 90,
+        "fields": {
+            "NombreSala": "B208",
+            "Edificio": "Edificio Computaci\u00f3n",
+            "CapacidadNormal": 21,
+            "CapacidadExamen": 0,
+            "Aforo": 0,
+            "Hibrido": false,
+            "PromedioVisibilidad": 1,
+            "PromedioSonido": 1,
+            "PromedioAsientos": 1,
+            "PromedioIluminacion": 1,
+            "CalificacionPromedioGlobal": 1,
+            "Link": "https://ucampus.uchile.cl/m/fcfm_eventos/objeto?objeto=sala-3007"
+        }
+    },
+    {
+        "model": "ReseñasSalasBeauchef.sala",
+        "pk": 91,
+        "fields": {
+            "NombreSala": "Laboratorio de Rocas",
+            "Edificio": "Edificio Geolog\u00eda",
+            "CapacidadNormal": 12,
+            "CapacidadExamen": 0,
+            "Aforo": 5,
+            "Hibrido": true,
+            "PromedioVisibilidad": 1,
+            "PromedioSonido": 1,
+            "PromedioAsientos": 1,
+            "PromedioIluminacion": 1,
+            "CalificacionPromedioGlobal": 1,
+            "Link": "https://ucampus.uchile.cl/m/fcfm_eventos/objeto?objeto=sala-3008"
+        }
+    },
+    {
+        "model": "ReseñasSalasBeauchef.sala",
+        "pk": 92,
+        "fields": {
+            "NombreSala": "N20",
+            "Edificio": "Edificio Escuela",
+            "CapacidadNormal": 25,
+            "CapacidadExamen": 0,
+            "Aforo": 0,
+            "Hibrido": false,
+            "PromedioVisibilidad": 1,
+            "PromedioSonido": 1,
+            "PromedioAsientos": 1,
+            "PromedioIluminacion": 1,
+            "CalificacionPromedioGlobal": 1,
+            "Link": "https://ucampus.uchile.cl/m/fcfm_eventos/objeto?objeto=sala-3025"
+        }
+    },
+    {
+        "model": "ReseñasSalasBeauchef.sala",
+        "pk": 93,
+        "fields": {
+            "NombreSala": "B02",
+            "Edificio": "Beauchef 851",
+            "CapacidadNormal": 101,
+            "CapacidadExamen": 50,
+            "Aforo": 35,
+            "Hibrido": true,
+            "PromedioVisibilidad": 1,
+            "PromedioSonido": 1,
+            "PromedioAsientos": 1,
+            "PromedioIluminacion": 1,
+            "CalificacionPromedioGlobal": 1,
+            "Link": "https://ucampus.uchile.cl/m/fcfm_eventos/objeto?objeto=sala-3033"
+        }
+    },
+    {
+        "model": "ReseñasSalasBeauchef.sala",
+        "pk": 94,
+        "fields": {
+            "NombreSala": "B03",
+            "Edificio": "Beauchef 851",
+            "CapacidadNormal": 101,
+            "CapacidadExamen": 50,
+            "Aforo": 35,
+            "Hibrido": true,
+            "PromedioVisibilidad": 1,
+            "PromedioSonido": 1,
+            "PromedioAsientos": 1,
+            "PromedioIluminacion": 1,
+            "CalificacionPromedioGlobal": 1,
+            "Link": "https://ucampus.uchile.cl/m/fcfm_eventos/objeto?objeto=sala-3034"
+        }
+    },
+    {
+        "model": "ReseñasSalasBeauchef.sala",
+        "pk": 95,
+        "fields": {
+            "NombreSala": "B04",
+            "Edificio": "Beauchef 851",
+            "CapacidadNormal": 101,
+            "CapacidadExamen": 50,
+            "Aforo": 35,
+            "Hibrido": true,
+            "PromedioVisibilidad": 1,
+            "PromedioSonido": 1,
+            "PromedioAsientos": 1,
+            "PromedioIluminacion": 1,
+            "CalificacionPromedioGlobal": 1,
+            "Link": "https://ucampus.uchile.cl/m/fcfm_eventos/objeto?objeto=sala-3035"
+        }
+    },
+    {
+        "model": "ReseñasSalasBeauchef.sala",
+        "pk": 96,
+        "fields": {
+            "NombreSala": "B05",
+            "Edificio": "Beauchef 851",
+            "CapacidadNormal": 82,
+            "CapacidadExamen": 40,
+            "Aforo": 28,
+            "Hibrido": true,
+            "PromedioVisibilidad": 1,
+            "PromedioSonido": 1,
+            "PromedioAsientos": 1,
+            "PromedioIluminacion": 1,
+            "CalificacionPromedioGlobal": 1,
+            "Link": "https://ucampus.uchile.cl/m/fcfm_eventos/objeto?objeto=sala-3036"
+        }
+    },
+    {
+        "model": "ReseñasSalasBeauchef.sala",
+        "pk": 97,
+        "fields": {
+            "NombreSala": "B06",
+            "Edificio": "Beauchef 851",
+            "CapacidadNormal": 52,
+            "CapacidadExamen": 25,
+            "Aforo": 0,
+            "Hibrido": true,
+            "PromedioVisibilidad": 1,
+            "PromedioSonido": 1,
+            "PromedioAsientos": 1,
+            "PromedioIluminacion": 1,
+            "CalificacionPromedioGlobal": 1,
+            "Link": "https://ucampus.uchile.cl/m/fcfm_eventos/objeto?objeto=sala-3037"
+        }
+    },
+    {
+        "model": "ReseñasSalasBeauchef.sala",
+        "pk": 98,
+        "fields": {
+            "NombreSala": "B07",
+            "Edificio": "Beauchef 851",
+            "CapacidadNormal": 50,
+            "CapacidadExamen": 0,
+            "Aforo": 0,
+            "Hibrido": true,
+            "PromedioVisibilidad": 1,
+            "PromedioSonido": 1,
+            "PromedioAsientos": 1,
+            "PromedioIluminacion": 1,
+            "CalificacionPromedioGlobal": 1,
+            "Link": "https://ucampus.uchile.cl/m/fcfm_eventos/objeto?objeto=sala-3038"
+        }
+    },
+    {
+        "model": "ReseñasSalasBeauchef.sala",
+        "pk": 99,
+        "fields": {
+            "NombreSala": "B08",
+            "Edificio": "Beauchef 851",
+            "CapacidadNormal": 72,
+            "CapacidadExamen": 35,
+            "Aforo": 0,
+            "Hibrido": true,
+            "PromedioVisibilidad": 1,
+            "PromedioSonido": 1,
+            "PromedioAsientos": 1,
+            "PromedioIluminacion": 1,
+            "CalificacionPromedioGlobal": 1,
+            "Link": "https://ucampus.uchile.cl/m/fcfm_eventos/objeto?objeto=sala-3039"
+        }
+    },
+    {
+        "model": "ReseñasSalasBeauchef.sala",
+        "pk": 100,
+        "fields": {
+            "NombreSala": "Q21",
+            "Edificio": "Edificio Qu\u00edmica",
+            "CapacidadNormal": 34,
+            "CapacidadExamen": 17,
+            "Aforo": 0,
+            "Hibrido": false,
+            "PromedioVisibilidad": 1,
+            "PromedioSonido": 1,
+            "PromedioAsientos": 1,
+            "PromedioIluminacion": 1,
+            "CalificacionPromedioGlobal": 1,
+            "Link": "https://ucampus.uchile.cl/m/fcfm_eventos/objeto?objeto=sala-3257"
+        }
+    },
+    {
+        "model": "ReseñasSalasBeauchef.sala",
+        "pk": 101,
+        "fields": {
+            "NombreSala": "Q22",
+            "Edificio": "Edificio Qu\u00edmica",
+            "CapacidadNormal": 66,
+            "CapacidadExamen": 33,
+            "Aforo": 0,
+            "Hibrido": true,
+            "PromedioVisibilidad": 1,
+            "PromedioSonido": 1,
+            "PromedioAsientos": 1,
+            "PromedioIluminacion": 1,
+            "CalificacionPromedioGlobal": 1,
+            "Link": "https://ucampus.uchile.cl/m/fcfm_eventos/objeto?objeto=sala-3261"
+        }
+    },
+    {
+        "model": "ReseñasSalasBeauchef.sala",
+        "pk": 102,
+        "fields": {
+            "NombreSala": "Q23",
+            "Edificio": "Edificio Qu\u00edmica",
+            "CapacidadNormal": 40,
+            "CapacidadExamen": 20,
+            "Aforo": 0,
+            "Hibrido": false,
+            "PromedioVisibilidad": 1,
+            "PromedioSonido": 1,
+            "PromedioAsientos": 1,
+            "PromedioIluminacion": 1,
+            "CalificacionPromedioGlobal": 1,
+            "Link": "https://ucampus.uchile.cl/m/fcfm_eventos/objeto?objeto=sala-3265"
+        }
+    },
+    {
+        "model": "ReseñasSalasBeauchef.sala",
+        "pk": 103,
+        "fields": {
+            "NombreSala": "B010 (Torre Norte piso -2)",
+            "Edificio": "Edificio Computaci\u00f3n",
+            "CapacidadNormal": 100,
+            "CapacidadExamen": 50,
+            "Aforo": 0,
+            "Hibrido": false,
+            "PromedioVisibilidad": 1,
+            "PromedioSonido": 1,
+            "PromedioAsientos": 1,
+            "PromedioIluminacion": 1,
+            "CalificacionPromedioGlobal": 1,
+            "Link": "https://ucampus.uchile.cl/m/fcfm_eventos/objeto?objeto=sala-3270"
+        }
+    },
+    {
+        "model": "ReseñasSalasBeauchef.sala",
+        "pk": 104,
+        "fields": {
+            "NombreSala": "B100",
+            "Edificio": "Edificio Computaci\u00f3n",
+            "CapacidadNormal": 27,
+            "CapacidadExamen": 0,
+            "Aforo": 0,
+            "Hibrido": false,
+            "PromedioVisibilidad": 1,
+            "PromedioSonido": 1,
+            "PromedioAsientos": 1,
+            "PromedioIluminacion": 1,
+            "CalificacionPromedioGlobal": 1,
+            "Link": "https://ucampus.uchile.cl/m/fcfm_eventos/objeto?objeto=sala-3274"
+        }
+    }
+]

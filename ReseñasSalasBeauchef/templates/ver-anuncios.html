@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block additional_breadcrumbs %}
+<li style="display: inline-block; margin-right: 10px;"><a href="{% url 'ver-anuncios' %}">Ver Anuncios</a></li>> 
+{% endblock %}
+
+
+{% block content %}
+{% if error_message %}
+  <div class="alert alert-danger">
+    {{ error_message }}
+  </div>
+{% endif %}
+    <h1>Ver anuncios</h1>
+    {% for anuncio in anuncios %}
+    <div>
+        <h2>Anuncio #{{ anuncio.id }} - {{ anuncio.titulo }}</h2>
+        <!-- agrega el usuario, fecha_publicacion y sala asociada al anuncio, con bold text -->
+        <p><b>{{ anuncio.usuario }} - {{ anuncio.fecha_publicacion }} - {{ anuncio.sala }} </b></p>
+        <p>{{ anuncio.comentario }}</p>
+        <img src="{{ anuncio.imagen.url }}" alt="Imagen del anuncio" height="100px">
+    </div>
+    {% endfor %}
+{% endblock %}

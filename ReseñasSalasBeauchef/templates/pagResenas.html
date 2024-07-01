@@ -1,0 +1,176 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}Reseñas Salas Beauchef{% endblock %}
+
+{% block css %}
+  <link rel="stylesheet" href="{% static 'css/stylesResenas.css' %}" type="text/css">
+  <link rel="stylesheet" href="{% static 'css/filter.css' %}" type="text/css"> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+{% endblock %}
+
+{% block additional_breadcrumbs %}
+<li style="display: inline-block; margin-right: 10px;"><a href="{% url 'buscador-salas' %}">Salas</a></li>> 
+<li style="display: inline-block; margin-right: 10px;"><a href="{% url 'pagResenas' sala.pk %}">{{sala.NombreSala}}</a></li>> 
+{% endblock %}
+
+{% block content %}
+  <div class="clearfix"></div>
+  <h1 class="direccion">Inicio>Salas>{{sala.NombreSala}}</h1>
+  <div class="clearfix"></div>
+     <aside id="filtros">
+        <form method="get" action="{% url 'buscador-salas' %}">
+            {{ form.as_p }}
+            <button type="submit">Nueva Búsqueda</button>
+        </form>
+    </aside>
+  <div class="sala">
+    <section id="imgContainer">
+      <div id="FotoSala">
+        <img src="{% static 'images/jcr_content.jpg' %}" alt="Sala">
+        <div>
+          <ul id="caracteristicas">
+            <li>Edificio: {{sala.Edificio}}</li>
+            <li>Capacidad Normal: {{sala.CapacidadNormal}}</li>
+            <li>Capacidad Examen: {{sala.CapacidadExamen}}</li>
+            <li>Aforo: {{sala.Aforo}}</li>
+            <li>Hibrida: 
+              {% if sala.Hibrido %}
+                Si
+              {% else %}
+                No
+              {% endif %}
+            </li>
+          </ul>
+        </div>
+      </div>
+      
+    </section>
+    <section id="estrellas">
+      <ul id="masEstrellas">
+        Reseñas Totales: {{ numResenas }}
+        <li>
+          <p>Calificación Global:
+            <meter class="average-rating main-rating" style="--rating: {{ sala.CalificacionPromedioGlobal }}" min="0" max="10"
+              value="{{ sala.CalificacionPromedioGlobal }}" title="{{ sala.CalificacionPromedioGlobal }} out of 10">
+            </meter>
+          </p>
+        </li>        
+        <li>
+          <p>Visibilidad:
+            <meter class="average-rating main-rating" style="--rating: {{ sala.PromedioVisibilidad }}" min="0" max="10"
+              value="{{ sala.PromedioVisibilidad }}" title="{{ sala.PromedioVisibilidad }} out of 10">
+            </meter>
+          </p>
+        </li>
+        <li>
+          <p>Sonido:
+            <meter class="average-rating main-rating" style="--rating: {{ sala.PromedioSonido }}" min="0" max="10"
+              value="{{ sala.PromedioSonido }}" title="{{ sala.PromedioSonido }} out of 10">
+            </meter>
+          </p>
+        </li>
+        <li>
+          <p>Asientos:
+            <meter class="average-rating main-rating" style="--rating: {{ sala.PromedioAsientos }}" min="0" max="10"
+              value="{{ sala.PromedioAsientos }}" title="{{ sala.PromedioAsientos }} out of 10">
+            </meter>
+          </p>
+        </li>
+        <li>
+          <p>Iluminacion:
+            <meter class="average-rating main-rating" style="--rating: {{ sala.PromedioIluminacion }}" min="0" max="10"
+              value="{{ sala.PromedioIluminacion }}" title="{{ sala.PromedioIluminacion }} out of 10">
+            </meter>
+          </p>
+        </li>
+      </ul>
+    </section>
+  </div><br><br>
+  <section id="Reseñas">
+    <h1>Reseñas de la sala</h1>
+    <ul>
+      {% for resena in resenas %}
+      <!-- resena.0 is the review itself, resena.1 is the set of comments associated with the review-->
+      <li>
+        <div class="reseña">
+          <div class="info-container">
+            <div class="nombre">{{resena.0.User.username}}</div>
+            <div class="fecha">{{resena.0.Fecha}}</div>
+          </div>
+          <div class="classif">
+            <p>Calificación:
+              <meter class="average-rating" style="--rating: {{ resena.0.Promedio }}" min="0" max="10" value="{{ resena.0.Promedio }}" title="{{ resena.0.Promedio }} out of 10">
+                  
+              </meter>
+            </p>
+          </div>
+          <p>{{ resena.0.Reseña }}</p>
+          <div class="like-container">
+            <div id="review-points-{{ resena.0.id }}" class="review-points"> 
+              {{ resena.0.puntuacion }} 
+              {% if resena.0.puntuacion != 1 %} Likes
+              {% else %} Like
+              {% endif %}
+            </div>
+            <button class="review-like-button" data-review-id="{{ resena.0.id }}" class="btn btn-primary btn-sm">
+              <i class="fas fa-heart"></i>
+            </button>
+          </div>
+          <br>
+          <button class="answer-button" data-review-id="{{ resena.0.id }}">Responder</button>
+          
+          <!-- Container for the comment text box -->
+          <form id="comment-form-{{ resena.0.id }}" class="comment-form" style="display: none;">
+            <br>
+            <textarea class="comment-textbox" rows="4" cols="50" maxlength="400" placeholder="Escribe tu comentario..."></textarea>
+            <input type="hidden" name="review_id" value="{{ resena.0.id }}">
+            <button type="button" class="submit-comment-button" data-review-id="{{ resena.0.id }}" data-sala-id="{{ resena.0.Sala }}">Enviar Comentario</button>
+          </form>
+          <br>
+          <ul id="comment-list-{{ resena.0.id }}">
+            {% for comment in resena.1 %}
+            <br>
+            <li>
+              <div class="comment-container">
+                <div class="info-container">
+                  <div class="nombre">{{ comment.User.username }}</div>
+                  <div class="fecha">{{ comment.Fecha}}</div>
+                </div>
+                <p> {{ comment.Comentario }} </p>
+                <div class="like-container">
+                  <div id="comment-points-{{ comment.id }}" class="comment-points"> 
+                    {{ comment.puntuacion }} 
+                    {% if comment.puntuacion != 1 %} Likes
+                    {% else %} Like
+                    {% endif %}
+                  </div>
+                  <button class="comment-like-button" data-comment-id="{{ comment.id }}" class="btn btn-primary btn-sm">
+                    <i class="fas fa-heart"></i>
+                  </button>
+                </div>
+                <br>
+              </div>
+            </li>
+            {% endfor %}
+          </ul>
+        </div>
+      </li>
+      <br>
+      {% empty %}
+      <li>No hay reseñas para esta sala</li>
+      {% endfor %}
+    </ul>
+  </section>
+ {% endblock %}
+
+{% block javascript %}
+  {% if user.is_authenticated %}
+  <script>
+  // Retrieve the current user's username and store it in a JavaScript variable
+    var currentUser = "{{ user.username }}";
+  </script>
+  {% endif %}
+
+  <script src="{% static 'js/pagResenas.js' %}"></script>
+{% endblock %}

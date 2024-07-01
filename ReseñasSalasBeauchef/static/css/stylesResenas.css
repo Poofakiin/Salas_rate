@@ -1,0 +1,152 @@
+.clearfix{
+    clear: both;
+}
+
+
+.direccion{
+    font-size: 20px;
+    margin-left: 50px;
+}
+
+.sala {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    /* Adjust the height as needed */
+    /* Set a background color for the entire container */
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}
+
+#imgContainer,
+#estrellas {
+    margin: 25px;
+    /* Adjust the margin between sections */
+    background-color: #ffffff;
+    /* Set background color for each section */
+    padding: 20px;
+    /* Add padding to sections for better readability */
+    border-radius: 10px;
+    /* Add border radius for rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Add a subtle box shadow for depth */
+}
+
+#imgContainer{
+    width: 40%;
+    font-size: 25px;
+}
+
+#estrellas {
+    width: 30%;
+}
+
+#masEstrellas{
+    list-style: none;
+    font-size: 30px;
+}
+
+#masEstrellas li{
+    text-align: justify;
+    font-size: 25px;
+}
+
+
+#caracteristicas{
+    list-style: square;
+    font-size: 20px; 
+}
+
+section img{
+    width: 100%;
+    max-height: auto;
+}
+
+#Reseñas{
+    margin-left: calc(17% - 20px);
+    margin-right: calc(17% - 20px);
+    font-size: 16px;
+}
+
+.reseña {
+    border: 2px solid #c0c0c0;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+.info-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.comment-container {
+    border: 2px solid #5555;
+    border-radius: 4px;
+    /* Add a border around each comment container */
+    margin-top: 10px;
+    /* Add spacing between comments */
+    padding: 10px;
+    /* Add padding within each comment container */
+}
+
+.nombre {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    font-family: Verdana;
+}
+
+.comentario {
+    margin-top: 10px;
+}
+
+.classif {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 20px;
+    
+}
+
+.average-rating {
+    position: relative;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    color: transparent;
+    width: auto;
+    display: inline-block;
+    vertical-align: baseline;
+    font-size: 25px;
+}
+
+.average-rating::before {
+    --percent: calc(var(--rating)/10*100%);
+    content: "★★★★★";
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: rgba(0, 0, 0, 0.2);
+    background: linear-gradient(90deg, gold var(--percent), rgba(0, 0, 0, 0.2) var(--percent));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.main-rating {
+    font-size: 35px;
+}
+
+
+.like-container {
+    display: flex;
+    float: right;
+    margin-left: auto;
+    /* This pushes the like button and points to the right */
+}
+
+.review-points,
+.comment-points {
+    margin-right: 15px;
+}

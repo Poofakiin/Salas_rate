@@ -1,0 +1,11 @@
+venv/
+*.log
+*.pot
+__pycache__/
+.vscode/
+.idea/
+*.pyc
+*.pyo
+__pycache__/
+migrations/
+*.sqlite3
